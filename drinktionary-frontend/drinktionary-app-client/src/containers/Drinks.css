@@ -1,0 +1,8 @@
+.Drinks form {
+  padding-bottom: 15px;
+}
+
+.Drinks form textarea {
+  height: 150px;
+  font-size: 24px;
+}

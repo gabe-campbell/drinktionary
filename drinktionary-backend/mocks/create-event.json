@@ -1,0 +1,8 @@
+{
+  "body": "{\"content\":\"hello world\",\"mainLiquor\":\"whiskey\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}

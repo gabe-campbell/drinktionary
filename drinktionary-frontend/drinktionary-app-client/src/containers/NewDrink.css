@@ -1,0 +1,12 @@
+.NewDrink form {
+  padding-bottom: 15px;
+}
+
+.NewDrink form textarea {
+  height: 250px;
+  font-size: 24px;
+}
+
+.input {
+  height: 25px;
+}

@@ -1,0 +1,5 @@
+aws cognito-idp sign-up \
+  --region us-east-2 \
+  --client-id 77ngu91s9kd50of8v66ph8avup \
+  --username gcamp06@jaguar.tamu.edu \
+  --password Passw0rd!

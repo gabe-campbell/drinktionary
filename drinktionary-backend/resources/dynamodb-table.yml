@@ -1,0 +1,17 @@
+Resources:
+  DrinksTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ${self:custom.tableName}
+      AttributeDefinitions:
+        - AttributeName: drinkId
+          AttributeType: S
+        - AttributeName: mainLiquor
+          AttributeType: S
+      KeySchema:
+        - AttributeName: drinkId
+          KeyType: HASH
+        - AttributeName: mainLiquor
+          KeyType: RANGE
+      # Set the capacity to auto-scale
+      BillingMode: PAY_PER_REQUEST
